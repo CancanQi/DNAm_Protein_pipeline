@@ -21,14 +21,17 @@ https://www.nature.com/articles/s41467-025-57288-6
 
 ### 2. pQTM
 * 使用线性模型\相关性分析等方法识别CpG-protein之间的关联,[R语言参考代码](./2.pQTM/2.pQTM.R) \
-  注意需要先准备蛋白对应的编码[基因的注释](./2.pQTM/1.Annotation_gene.R) \
-* 使用MatrixEqtl包速度更快，参考https://github.com/andreyshabalin/MatrixEQTL \
+  注意需要先准备蛋白对应的编码[基因的注释](./2.pQTM/1.Annotation_gene.R)
+* 使用MatrixEqtl包速度更快，参考https://github.com/andreyshabalin/MatrixEQTL
 
 ### 3. 中介分析
-* 首先，使用使用线性模型\相关性分析等方法，找到上述pQTM蛋白与表型之间的关联 \
-* 使用mediation包进行中介分析，[参考代码](./3.Mediation/mediation.R) \
+* 首先，使用使用线性模型\相关性分析等方法，找到上述pQTM蛋白与表型之间的关联
+* 使用mediation包进行中介分析，[参考代码](./3.Mediation/mediation.R)
 
 ### 4. SMR/coloc
+* 参考代码：https://github.com/EMO-Consortium/GeneticCorrelation
+* SMR参考 https://yanglab.westlake.edu.cn/software/smr/#Overview
+* 多个性状之间的colocalization，使用hypercoloc，参考 https://github.com/cnfoley/hyprcoloc
   
 
 
