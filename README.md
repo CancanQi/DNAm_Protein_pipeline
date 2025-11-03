@@ -15,6 +15,12 @@ https://www.nature.com/articles/s41467-025-57288-6
 * 使用线性/逻辑回归识别相关CpG位点 \
   [R语言参考代码](./1.EWAS/EWAS.demo.R)，注意根据结局变量的类型调整function中的模型
 * 提交任务至集群运行 \
-  [任务提交参考代码](./1.EWAS/Job.submit.sh),注意调整具体参数
+  [任务提交参考代码](./1.EWAS/Job.submit.sh)，注意调整具体参数
+* CpG位点的注释 \
+  注释文件：https://github.com/zhou-lab/InfiniumAnnotationV1/tree/main/Anno/MSA
+
+### 2. pQTM
+* 使用线性模型\相关性分析等方法识别CpG-protein之间的关联 \
+  [R语言参考代码]（）
 
 
