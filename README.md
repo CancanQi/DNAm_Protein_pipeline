@@ -12,7 +12,9 @@ https://www.nature.com/articles/s41467-025-57288-6
 
 ## 参考代码
 ### 1. EWAS
-* 使用线性/逻辑回归识别相关CpG位点，[R语言参考代码](./1.EWAS/EWAS.demo.R) 注意根据结局变量的类型调整function中的模型
-* 
+* 使用线性/逻辑回归识别相关CpG位点 \
+  [R语言参考代码](./1.EWAS/EWAS.demo.R)，注意根据结局变量的类型调整function中的模型
+* 提交任务至集群运行 \
+  [任务提交参考代码](./1.EWAS/Job.submit.sh),注意调整具体参数
 
 
