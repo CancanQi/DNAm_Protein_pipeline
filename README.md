@@ -20,7 +20,11 @@ https://www.nature.com/articles/s41467-025-57288-6
   注释文件：https://github.com/zhou-lab/InfiniumAnnotationV1/tree/main/Anno/MSA
 
 ### 2. pQTM
-* 使用线性模型\相关性分析等方法识别CpG-protein之间的关联 \
-  [R语言参考代码]（）
+* 使用线性模型\相关性分析等方法识别CpG-protein之间的关联,[R语言参考代码](./2.pQTM/2.pQTM.R) \
+  注意需要先准备蛋白对应的编码[基因的注释](./2.pQTM/1.Annotation_gene.R) \
+* 使用MatrixEqtl包速度更快，参考https://github.com/andreyshabalin/MatrixEQTL \
+
+### 3. 
+  
 
 
